@@ -15,5 +15,6 @@ The corpus6 and final versions of Gratian2.txt are identical.
 
 - [ ] create `final_noquote/wordlist.txt`
 - [ ] create `final_xque/wordlist.txt`
-- [ ] create `final_noquote_xque` samples
+- [x] create `final_noquote_xque` samples
 - [ ] copy `final_noquote/dequotify.vim` back to `Lombard/corpora/Gratian/quoteless`
+
