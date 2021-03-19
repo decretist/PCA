@@ -13,8 +13,9 @@ The corpus6 and final versions of Gratian2.txt are identical.
 
 `PCA/corpora/final` **is** identical to `Gratian/samples/hand/rollup_4` (4 May 2020)
 
-- [ ] create `final_noquote/wordlist.txt`
-- [ ] create `final_xque/wordlist.txt`
 - [x] create `final_noquote_xque` samples
+- [x] create `final_noquote/wordlist.txt`
+- [x] create `final_noquote_xque/wordlist.txt`
+- [x] create `final_xque/wordlist.txt`
 - [ ] copy `final_noquote/dequotify.vim` back to `Lombard/corpora/Gratian/quoteless`
 
