@@ -20,7 +20,7 @@ writeLines(files.to.analyze, "files_to_analyze.txt")
 # 28 May 2020
 #
 stylo.results = stylo(
-  gui = TRUE,
+  gui = FALSE,
   corpus.dir = "corpora/final_xque",
   corpus.lang = "Latin.corr",
   mfw.min = 52, mfw.max = 52,
@@ -68,7 +68,7 @@ print(stylo.results$features.actually.used)
 # exclude _an_ from wordlist
 #
 stylo.results = stylo(
-  gui = TRUE,
+  gui = FALSE,
   features = "wordlist_an.txt",
   corpus.dir = "corpora/final_xque",
   corpus.lang = "Latin.corr",
@@ -86,3 +86,34 @@ stylo.results = stylo(
 )
 # summary(stylo.results)
 print(stylo.results$features.actually.used)
+#
+# Figure NX
+# 19 March 2021
+# no-quote
+# xque-processed
+# _an_ commented
+# _si_ uncommented
+#
+stylo.results = stylo(
+  gui = FALSE,
+  features = "wordlists/wordlist_nx.txt",
+  corpus.dir = "corpora/final_noquote_xque",
+  corpus.lang = "Latin.corr",
+  mfw.min = 53, mfw.max = 53,
+  mfw.list.cutoff = 240,
+  delete.pronouns = TRUE,
+  use.custom.list.of.files = TRUE,
+  analysis.type = "PCR",
+  sampling = "normal.sampling",
+  sample.size = 1200,
+  write.jpg.file = TRUE,
+  pca.visual.flavour = "symbols",
+  custom.graph.title = "4-way",
+  custom.graph.filename = "JPGs/4-way_PCA_NX_MFWs"
+)
+# summary(stylo.results)
+print(stylo.results$features.actually.used)
+#
+file.remove("files_to_analyze.txt")
+file.remove("stylo_config.txt")
+file.remove("table_with_frequencies.txt")
