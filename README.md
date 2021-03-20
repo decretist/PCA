@@ -8,7 +8,10 @@ Sandbox for principal component analysis
 
 ### Notes
 
-+ Toggle test scripts from `gui = TRUE,` to `gui = FALSE,` **before** incorporating into `final.R`!
++ `custom.graph.title` works if `pca.visual.flavour = "classic",` or `pca.visual.flavour = "loadings",`
 
-+ Use either `features = "wordlists/existing_wordlist.txt",` or
-`use.existing.wordlist = TRUE,` both not both (mutually exclusive).
++ `custom.graph.title` does not work if `pca.visual.flavour = "symbols",`
+
++ Toggle test scripts from `gui = TRUE,` to `gui = FALSE,` before incorporating into `final.R`
+
++ Use either `features = "wordlists/existing_wordlist.txt",` or `use.existing.wordlist = TRUE,` but not both (mutually exclusive)
