@@ -56,8 +56,9 @@ stylo.results = stylo(
   sampling = "normal.sampling",
   sample.size = 1200,
   write.jpg.file = TRUE,
-  pca.visual.flavour = "loadings",
+  titles.on.graphs = FALSE,
   custom.graph.title = "4-way",
+  pca.visual.flavour = "loadings",
   custom.graph.filename = "JPGs/4-way_PCA_52_MFWs_Loadings"
 )
 # summary(stylo.results)
