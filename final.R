@@ -21,7 +21,7 @@ writeLines(files.to.analyze, "files_to_analyze.txt")
 #
 stylo.results = stylo(
   gui = FALSE,
-  features = "wordlists/wordlist_save.txt",
+  features = "wordlists/wordlist_fig1.txt",
   corpus.dir = "corpora/final_xque",
   corpus.lang = "Latin.corr",
   mfw.min = 52, mfw.max = 52,
@@ -45,7 +45,7 @@ print(stylo.results$features.actually.used)
 #
 stylo.results = stylo(
   gui = FALSE,
-  features = "wordlists/wordlist_save.txt",
+  features = "wordlists/wordlist_fig1.txt",
   corpus.dir = "corpora/final_xque",
   corpus.lang = "Latin.corr",
   mfw.min = 52, mfw.max = 52,
@@ -70,7 +70,7 @@ print(stylo.results$features.actually.used)
 #
 stylo.results = stylo(
   gui = FALSE,
-  features = "wordlists/wordlist_an.txt",
+  features = "wordlists/wordlist_fig3.txt",
   corpus.dir = "corpora/final_xque",
   corpus.lang = "Latin.corr",
   mfw.min = 51, mfw.max = 51,
