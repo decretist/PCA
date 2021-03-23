@@ -5,7 +5,7 @@ non
 de
 quod
 ad
-#qui
+qui
 sed
 unde
 uel
@@ -17,7 +17,7 @@ autem
 ex
 #sunt
 enim
-#que
+que
 uero
 etiam
 ab
@@ -28,7 +28,7 @@ quia
 item
 per
 nec
-#se
+#se*
 #his
 #hoc
 an
@@ -39,7 +39,7 @@ sicut
 nisi
 #illud*
 ita
-#sibi
+#sibi*
 #papa
 tamen
 #ecclesiae
@@ -50,7 +50,7 @@ pro
 #auctoritate
 #augustinus
 sic
-#quibus
+quibus
 #dicens
 quo
 #libro
@@ -85,7 +85,7 @@ ante
 #dicitur
 #sint
 #ea*
-#qua
+qua
 ne
 #fuerit
 #debet
@@ -114,7 +114,7 @@ dum
 #fieri
 #secundum
 #episcopi
-#quem
+quem
 #ille*
 #episcopis
 #domino
@@ -125,7 +125,7 @@ apud
 #alia
 #tantum
 #sui*
-#cui
+cui
 postea
 #uerum
 ideo
@@ -144,7 +144,7 @@ ecce
 #hic
 #deus
 #liceat
-#cuius
+cuius
 #datur
 #penitencia
 #uidetur
@@ -153,7 +153,7 @@ aliquando
 quomodo
 #primum
 #quid
-#quos
+quos
 tunc
 itaque
 supra
@@ -179,7 +179,7 @@ namque
 #fuerint
 quamuis
 #quidam
-#quorum
+quorum
 #eam*
 #exemplo
 #lege
@@ -198,7 +198,7 @@ etsi
 #ii
 #nulla
 #prius
-#suum
+#suum*
 #titulo
 nunc
 #ambrosius
@@ -228,6 +228,7 @@ similiter
 #sacerdotibus
 #sacris
 #uos
+usque
 #aliquid
 #inuenitur
 #leo
